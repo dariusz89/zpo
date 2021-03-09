@@ -1,5 +1,5 @@
 # Usage of object-oriented programming
-Project to pass the course: usage object oriented programming
+Project to pass the course: usage of object oriented programming
 
 ## Application subject
 **Database**
