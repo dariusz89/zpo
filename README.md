@@ -39,8 +39,7 @@ In Visual Studio, take the following steps to compile and run the program.
 
 __Linux__
 
-~/projects/db$ g++ --version 
-
+**~/projects/db$ g++ --version**
 >g++ (Debian 8.3.0-6) 8.3.0 
 >Copyright (C) 2018 Free Software Foundation, Inc. 
 >This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
@@ -52,9 +51,10 @@ I create 3 subdirectories in the indicated directory:
   * __build__ - it will contain the program's executable file
   * __database__ - where I store the database
   * __src__ - directory with the source code of the program.
-I compile and run with the following command: 
 
->g++ src/DB.cpp -std=c++17 -lstdc++fs -o build/DB.o && ./build/DB.o database/db.stefan
+I compile and run with the following command:
+
+**g++ src/DB.cpp -std=c++17 -lstdc++fs -o build/DB.o && ./build/DB.o database/db.stefan**
 
 There are two ways to run a program, with or without an additional argument, such as is the path with the location of the database file. 
 In the case where the path of the database file data is not specified by the user, the program will accept it as default the database path from which the program was started. 
